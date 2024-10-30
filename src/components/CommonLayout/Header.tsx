@@ -13,8 +13,6 @@ export default function Header() {
 										<NavigationItem href={'/'} label={'Home'} isSelected={pathname === '/'}/>
 										<NavigationItem href={'/kb'} label={'knowledge base'}
 										                isSelected={pathname !== '/' && pathname.includes('/kb')}/>
-										<NavigationItem href={'/roadmap'} label={'Road map'}
-										                isSelected={pathname !== '/' && pathname.includes('/roadmap')}/>
 										<NavigationItem href={'/workout'} label={'Workout'}
 										                isSelected={pathname !== '/' && pathname.includes('/workout')}/>
 								</section>

@@ -26,10 +26,6 @@ const routers = createBrowserRouter([
 								element: <KBPage/>
 						},
 						{
-								path: "/roadmap",
-								element: <Roadmap/>
-						},
-						{
 								path: "/workout",
 								element: <WorkOut/>
 						},
