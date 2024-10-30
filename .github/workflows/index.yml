@@ -32,5 +32,4 @@ jobs:
             echo "PORT=3111" >> .env
             echo "REACT_APP_API_URL=https://dashboard.kiendev.click/api" >> .env
             echo "REACT_APP_BE_URL=https://dashboard.kiendev.click" >> .env
-            yarn build
             pm2 reload MasterAdmin
